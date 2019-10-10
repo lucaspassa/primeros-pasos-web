@@ -12,4 +12,6 @@ if (!mysqli_select_db($enlace, 'practicauno')) {
     exit;
 }
 
+mysqli_query($enlace,'SET NAMES utf8');
+
 ?>

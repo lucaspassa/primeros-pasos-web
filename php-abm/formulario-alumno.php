@@ -6,7 +6,10 @@
 ?>
 <html>
 <head>
+  <?php require('include/setHead.php'); ?>
 </head>
 <body>
+
+  
 </body>
 </html>
