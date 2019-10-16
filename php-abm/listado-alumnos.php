@@ -25,6 +25,7 @@ if (!$resultado) {
 
 ?>
 
+<a href="formulario-alumno.php"> Nuevo Alumno</a>
 <table class="table table-striped">
   <thead>
     <tr>
@@ -40,7 +41,7 @@ while ($fila = mysqli_fetch_assoc($resultado)) {
   echo "<tr>";
   echo " <th scope='row'>".$fila['id']."</th>";
   echo " <td> ".$fila['nombre']."</td>";
-  echo "<td>".$fila['email']."</td> ";
+  echo " <td>".$fila['email']."</td> ";
   echo "</tr>";
 }
 ?>
